@@ -126,7 +126,7 @@ def find_num_room(h_id, soup):
 def parse_hotel(id_, ip_):
     data = dict()
     url = "http://www.hotels.com/{}/".format(id_)
-    proxies = {'http': f'http://mabelabraham:959f18d8@{ip_}:60099'} 
+    proxies = {'http': PROXY_INFO} # Hidden from Github 
     header = {'User-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:69.0) Gecko/20100101 Firefox/69.0'}
     r = requests.get(url, proxies=proxies, headers=header)
     print("Status Code:{}".format(r.status_code))
