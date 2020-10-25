@@ -1,5 +1,5 @@
 # Portfolio
-Some example of codes I have written since 2019. These were developed mostly at my current job at the Columbia Business School. 
+Some example of codes that I have written since 2019, mostly for various assignments at my current job at the Columbia Business School. There are ongoing web scraping and research projects that are not in this portfolio. Here is a snapshot of the file structure.
 
 ```
 📦portfolio
