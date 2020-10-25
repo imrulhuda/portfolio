@@ -118,7 +118,7 @@ def parse(hotel_id, list_of_ips):
     with requests.session() as s:
         # setting up the proxy
         ip_ = random.choice(list_of_ips)
-        proxies = {'http': f'http://mabelabraham:959f18d8@{ip_}:60099'}
+        proxies = {'http': f'PROXY_INFO'} #Hidden from Github
         s.proxies = proxies
         # requesting selection page
         payloads = None
