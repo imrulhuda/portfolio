@@ -1,6 +1,7 @@
 # Portfolio
 Some example of codes I have written since 2019. These were developed mostly at my current job at the Columbia Business School. 
 
+```
 📦portfolio
  ┣ 📂big_data
  ┃ ┗ 📜wordcount_mrjob.py
@@ -27,3 +28,4 @@ Some example of codes I have written since 2019. These were developed mostly at 
  ┃ ┣ 📜fuzzy_string_matching.py
  ┃ ┗ 📜resume_parsing.py
  ┗ 📜README.md
+```
